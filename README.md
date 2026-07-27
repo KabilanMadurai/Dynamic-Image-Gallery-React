@@ -1,55 +1,65 @@
-# 🌄 Dynamic Image Gallery
+# 📸 Dynamic Image Gallery
 
-A modern and responsive **Dynamic Image Gallery** built with **React** and **Vite**. This project demonstrates reusable React components, dynamic rendering using props and `map()`, and a clean, responsive user interface with smooth animations.
+A modern and responsive **Dynamic Image Gallery** built with **React** and **Vite**. The project showcases reusable React components, dynamic rendering using the `map()` function, responsive design, and smooth scrolling animations. It is deployed using **GitHub Actions** and **GitHub Pages**.
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-👉 https://kabilanmadurai.github.io/Dynamic-Image-Gallery/
+🔗 https://kabilanmadurai.github.io/Dynamic-Image-Gallery-React/
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/KabilanMadurai/Dynamic-Image-Gallery-React
 
 ---
 
-## 📸 Features
+## ✨ Features
 
+- 📸 Dynamic image gallery using React
+- 🧩 Reusable `ImageCard` component
+- 🔁 Dynamic rendering with the `map()` function
 - 🎨 Modern and responsive UI
-- ⚛️ Built with React and Vite
-- 🧩 Reusable React components
-- 🖼️ Dynamic image rendering using `map()`
-- 📦 Image data stored in a separate JavaScript file
-- ✨ Hover animations and zoom effects
-- 🔄 Infinite horizontal scrolling gallery
-- 📱 Mobile-friendly responsive design
-- 🎯 Clean and modular project structure
+- ✨ Smooth hover animations
+- ♾️ Auto-scrolling image gallery
+- 📱 Mobile-friendly design
+- ⚡ Built with Vite for fast performance
+- 🚀 Automated deployment using GitHub Actions
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- React
+- React.js
 - Vite
 - JavaScript (ES6+)
 - HTML5
 - CSS3
+- Git & GitHub
+- GitHub Actions
+- GitHub Pages
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-Dynamic-Image-Gallery
+Dynamic-Image-Gallery-React/
 │
 ├── public/
 ├── src/
+│   ├── assets/
 │   ├── components/
 │   │   ├── Gallery.jsx
 │   │   └── ImageCard.jsx
-│   │
 │   ├── data/
 │   │   └── images.js
-│   │
 │   ├── App.jsx
-│   ├── main.jsx
 │   ├── App.css
-│   └── index.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
 │
 ├── package.json
 ├── vite.config.js
@@ -58,78 +68,60 @@ Dynamic-Image-Gallery
 
 ---
 
-## 📚 React Concepts Demonstrated
+## 🚀 Installation
 
-- Functional Components
-- JSX
-- Props
-- Component Reusability
-- Rendering Lists with `map()`
-- React Fragments
-- Modular Folder Structure
-
----
-
-## ▶️ Getting Started
-
-### Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/KabilanMadurai/Dynamic-Image-Gallery.git
+git clone https://github.com/KabilanMadurai/Dynamic-Image-Gallery-React.git
 ```
 
-### Navigate to the project
+Navigate to the project folder:
 
 ```bash
-cd Dynamic-Image-Gallery
+cd Dynamic-Image-Gallery-React
 ```
 
-### Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Run the development server
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Open your browser and visit:
+Build for production:
 
-```
-http://localhost:5173
+```bash
+npm run build
 ```
 
 ---
 
-## 📷 Gallery Preview
+## 📖 What I Learned
 
-The gallery includes:
+This project helped me gain practical experience with:
 
-- Nature Landscapes
-- Mountains
-- Lakes
-- Forests
-- Beaches
-- Waterfalls
-- Wildlife
-- Sunset Views
-
-Each image is dynamically rendered from a JavaScript data array, making it easy to add or modify gallery items.
+- React Components
+- Props
+- Dynamic rendering using `map()`
+- Component-based architecture
+- Responsive web design
+- CSS animations
+- Vite build process
+- GitHub Actions CI/CD
+- Deploying React applications with GitHub Pages
+- Debugging production deployment issues
 
 ---
 
-## 💡 Future Enhancements
+## 📸 Preview
 
-- 🔍 Image Search
-- ❤️ Favorite Images
-- 🖼️ Full-Screen Image Preview
-- 📂 Category Filters
-- 🌙 Dark/Light Mode Toggle
-- ⏳ Lazy Loading
-- ☁️ API Integration for Dynamic Images
+<img width="100%" alt="Dynamic Image Gallery" src="https://picsum.photos/1200/600?random=1">
 
 ---
 
@@ -137,7 +129,8 @@ Each image is dynamically rendered from a JavaScript data array, making it easy 
 
 **Kabilan Baskaran**
 
-GitHub: https://github.com/KabilanMadurai
+- GitHub: https://github.com/KabilanMadurai
+- LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
 
