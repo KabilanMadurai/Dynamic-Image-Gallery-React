@@ -119,18 +119,12 @@ This project helped me gain practical experience with:
 
 ---
 
-## 📸 Preview
-
-<img width="100%" alt="Dynamic Image Gallery" src="https://picsum.photos/1200/600?random=1">
-
----
-
 ## 👨‍💻 Author
 
 **Kabilan Baskaran**
 
 - GitHub: https://github.com/KabilanMadurai
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: www.linkedin.com/in/kabilan-b-9939ab257
 
 ---
 
